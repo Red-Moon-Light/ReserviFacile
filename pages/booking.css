@@ -1,0 +1,87 @@
+.bg {
+    background-image: url('/public/bg/booking-bg.jpg');
+}
+
+.loading {
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.choose {
+    display: block;
+    margin: auto;
+    color: var(--outline-color-addit);
+    text-shadow: 1px 1px 8px black;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    background: linear-gradient(325deg,rgba(133, 18, 104, 0.8) 0%, rgba(116, 15, 110, 0.8) 50%, rgba(102, 12, 90, 0.8) 100%); 
+    width: fit-content;
+    padding: 13px 45px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+
+.search-input {
+    display: block;
+    margin: auto;
+    width: 600px;
+    max-width: 80vw;
+    padding: 12px 20px;
+    border: none;
+    outline: 2px solid rgba(57, 18, 58, 0.6);
+    background-color: var(--field-bg-color);
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+
+.search-no-result {
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 4px rgba(168, 30, 138, 0.2);
+}
+
+.restaurants-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(10% + 180px), 1fr));
+  gap: calc(1.2vw + 12px);
+  max-width: 100%;
+}
+
+.restaurant-card {
+  height: calc(50px + 15vw);
+  min-height: 200px;
+  max-height: 28vh;
+  background-size: cover;
+  background-position: center 60%;
+  border-radius: 16px;
+  border: 3px solid rgb(112, 207, 141);
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  animation: 1000ms ease slide-from-bottom;
+}
+
+.restaurant-card:hover {
+    box-shadow: 0px 0px 25px rgb(255, 245, 213);
+    transform: scale(1.1);
+}
+
+.restaurant-name {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    font-size: 22px;
+    padding: 1rem 1rem;
+    width: 100%;
+    border-radius: 13px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.6);
+    text-align: center;
+}

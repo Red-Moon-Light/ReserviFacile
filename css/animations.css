@@ -1,0 +1,21 @@
+@keyframes slide-from-right {
+    from {
+        transform: translateX(100%);
+        opacity: 0.8;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-from-bottom {
+    from {
+        transform: translateY(150%);
+        opacity: 0.8;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
