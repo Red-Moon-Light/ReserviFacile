@@ -167,14 +167,14 @@ async function cancelBooking(bookingId: number) {
     
     notificationMessage.value = 'Бронирование успешно отменено';
     showNotification.value = true;
-    setTimeout(() => showNotification.value = false, 3000);
+    setTimeout(() => showNotification.value = false, 5000);
     
     await loadBookings();
   } catch (e) {
     console.error('Ошибка отмены брони:', e);
     notificationMessage.value = 'Ошибка при отмене бронирования';
     showNotification.value = true;
-    setTimeout(() => showNotification.value = false, 3000);
+    setTimeout(() => showNotification.value = false, 5000);
   } finally {
     showCancelModal.value = false;
   }

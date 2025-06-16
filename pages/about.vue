@@ -3,7 +3,8 @@
         <Header />
         <div class="container">
             <div class="text-container">
-                <h1 class="special">~~~ О нас ~~~</h1>
+                <h1 class="special page-title-pc">~~~ О нас ~~~</h1>
+                <h1 class="special page-title-mobile">~ О нас ~</h1>
                 <p>ООО "Резерви Фасиль" — компания, занимающаяся организацией
                     онлайн-бронирований мест в ресторанах.
                 </p>
@@ -29,8 +30,10 @@
                 </p>
                 <p>Для получения более подробной информации Вы можете
                     ознакомиться с нашим <NuxtLink to="#" class="license-link">
-                    Лицензионным соглашением</NuxtLink>.
+                    Лицензионным соглашением.</NuxtLink>
                 </p>
+
+                <p class="signature">Разработчик платформы:<br>Туз И.Б., 11bestlife11@gmail.com</p>
             </div>
         </div>
         <Footer />

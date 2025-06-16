@@ -95,7 +95,7 @@
           <input type="checkbox" class="checkbox" required>
           <label class="checkbox-text">Я согласен с правилами использования платформы и даю
             разрешение на обработку моих персональных данных в соответствии с
-            <NuxtLink to="#" class="checkbox-license-link">Лицензионным соглашением</NuxtLink>.
+            <NuxtLink to="#" class="checkbox-license-link">Лицензионным соглашением.</NuxtLink>
           </label>
         </div>
         

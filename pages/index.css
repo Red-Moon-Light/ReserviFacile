@@ -277,8 +277,21 @@ button[type="submit"]:hover {
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 470px) {
     .tabs button {
         padding: 10px 18px;
+    }
+    .auth-container {
+        max-width: 85vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .tabs button {
+        padding: 10px 6vw;
+    }
+    .auth-container {
+        max-width: 95vw;
+        padding: 20px 10px;
     }
 }

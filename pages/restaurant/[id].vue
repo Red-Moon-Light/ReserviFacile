@@ -9,8 +9,8 @@
         <p class="modal-booking-price">{{ bookingPrice }}₽</p>
         <p>(Эта сумма будет вычтена из Вашего чека в ресторане)</p>
         <div class="modal-buttons">
-          <button @click="showBookingModal = false" class="modal-cancel-btn">Отмена</button>
           <button @click="confirmBooking" class="modal-confirm-btn">Перейти к оплате</button>
+          <button @click="showBookingModal = false" class="modal-cancel-btn">Отмена</button>
         </div>
       </div>
     </div>

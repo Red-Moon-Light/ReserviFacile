@@ -71,3 +71,13 @@ p {
         margin-top: 20px;
     }
 }
+
+@media screen and (max-width: 420px) {
+  .footer {
+    padding: 20px 10px;
+  }
+  .logo {
+    font-size: 34px;
+  }
+}
+

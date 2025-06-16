@@ -80,3 +80,9 @@ input, select {
     display: block !important;
   }
 }
+
+@media screen and (max-width: 420px) {
+  .container {
+      max-width: 100vw;
+  }
+}

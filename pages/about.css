@@ -27,6 +27,13 @@ p {
     text-shadow: 1px 1px 13px rgba(56, 0, 47, 0.3);
 }
 
+.signature {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: right;
+    font-style: italic;
+}
+
 .license-link{
     display: inline-block;
     color: rgb(152, 19, 192);
@@ -45,4 +52,11 @@ p {
     background-color: var(--outline-color-addit);
     transform: translateY(2px);
 
+}
+
+
+@media screen and (max-width: 420px) {
+    .text-container {
+        max-width: 100%;
+    }
 }

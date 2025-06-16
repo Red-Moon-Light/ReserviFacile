@@ -103,6 +103,11 @@ p {
     animation: 800ms ease slide-from-right;
 }
 
+@media screen and (max-width: 1010px) {
+    p {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 750px) {
     .header {
@@ -121,9 +126,13 @@ p {
     }
     .nav-link {
         width: 380px;
-        max-width: 95vw;
+        max-width: 90vw;
+        padding: 8px 5px;
     }
-    p {
-        display: none;
-    }
+}
+
+@media screen and (max-width: 420px) {
+  .logo {
+    font-size: 34px;
+  }
 }
