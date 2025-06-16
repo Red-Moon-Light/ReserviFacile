@@ -44,6 +44,7 @@ export default defineEventHandler(async (event) => {
   const token = generateToken(result.lastID);
   setCookie(event, 'auth_token', token, {
     httpOnly: true,
+    secure: true,
     maxAge: 86400 // 1 день
   });
 
