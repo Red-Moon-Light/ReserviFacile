@@ -14,7 +14,6 @@ export default defineNuxtConfig({
     appManifest: true,
   },
   nitro: {
-    preset: 'vercel',
     prerender: {
       ignore: [
         '/.well-known/appspecific/com.chrome.devtools.json',
