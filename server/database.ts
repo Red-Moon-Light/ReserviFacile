@@ -62,8 +62,8 @@ export async function initializeDatabase() {
     const restaurants = [
       { 
         id: 1, 
-        name: "L'deur | Людэр", 
-        image: "/restaurants/Ldeur.png", 
+        name: "L'odeur | Людэр", 
+        image: "/restaurants/Lodeur.png", 
         addresses: ['1-1/Ставрополь, проспект Карла Маркса, 64/12:00-23:00', '1-2/Ставрополь, ул. Западный обход, 58 /16:00-23:00']
       },
       { 
