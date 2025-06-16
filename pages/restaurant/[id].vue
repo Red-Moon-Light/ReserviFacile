@@ -6,7 +6,7 @@
     <div v-if="showBookingModal" class="modal">
       <div class="modal-content">
         <p>Стоимость предварительного бронирования данного столика:</p>
-        <p class="modal-booking-price">{{ bookingPrice }}р.</p>
+        <p class="modal-booking-price">{{ bookingPrice }} р.</p>
         <p>(Эта сумма будет вычтена из Вашего чека в ресторане)</p>
         <div class="modal-buttons">
           <button @click="confirmBooking" class="modal-confirm-btn">Перейти к оплате</button>
@@ -62,7 +62,7 @@
             <h3 class="special">Столик №{{ table.table_number }}</h3>
             <div class="table-info">
               <p>Мест: {{ table.seats }}</p>
-              <p>Тариф: {{ table.hourly_rate }}р./час</p>
+              <p>Тариф: {{ table.hourly_rate }} р./час</p>
             </div>
 
             <div class="hint" style="margin-top: 5px;">Время посещения</div>
@@ -86,7 +86,7 @@
                   {{ d }} час{{ d > 1 && d < 5 ? 'а' : '' }}{{ d >= 5 ? 'ов' : '' }}
                 </option>
               </select>
-              <p>Стоимость: {{ calculatePrice(table) }}р.</p>
+              <p>Стоимость: {{ calculatePrice(table) }} р.</p>
               <button 
                 @click="openBookingModal(table)"
                 :disabled="!canBook(table)"
