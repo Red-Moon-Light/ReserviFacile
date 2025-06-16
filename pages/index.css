@@ -288,10 +288,19 @@ button[type="submit"]:hover {
 
 @media screen and (max-width: 420px) {
     .tabs button {
-        padding: 10px 6vw;
+        padding: 10px 5vw;
     }
     .auth-container {
         max-width: 95vw;
         padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .tabs button {
+        padding: 10px 4vw;
+    }
+    h1 {
+        font-size: 32px;
     }
 }
