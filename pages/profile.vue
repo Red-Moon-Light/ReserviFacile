@@ -44,7 +44,7 @@
             <div class="booking-info">
               <p>Столик №{{ booking.tableNumber }}</p>
                 <p>{{ formatDate(booking.booking_date) }} {{ booking.start_time }} - {{ booking.end_time }}</p>
-              <p class="price">Стоимость: {{ booking.price }}р.</p>
+              <p class="price">Стоимость: {{ booking.price }} р.</p>
             </div>
             <button 
               @click="openCancelModal(booking.id)"
