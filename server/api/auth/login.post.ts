@@ -35,9 +35,9 @@ export default defineEventHandler(async (event) => {
       // Устанавливаем Cookie
     setCookie(event, 'auth_token', token, {
         httpOnly: true,
+        secure: true,
         maxAge: 86400, // 1 день
         secure: false, // Для HTTP
-        sameSite: 'lax'
     });
   
     return { success: true };
