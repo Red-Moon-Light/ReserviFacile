@@ -1,6 +1,14 @@
-@import url('https://fonts.cdnfonts.com/css/luminari');
-@import url('https://fonts.cdnfonts.com/css/tex-gyre-schola');
 @import url('./animations.css');
+
+/* Luminari */
+@font-face {
+    font-family: 'Luminari';
+    src: url('/fonts/Luminari.woff2') format('woff2'),
+         url('/fonts/Luminari.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* Оптимизация загрузки */
+}
 
 :root {
   --bg-color-main: linear-gradient(325deg,rgba(83, 33, 184, 0.7) 0%, rgba(122, 52, 168, 0.7) 50%, rgba(151, 36, 166, 0.7) 100%);
